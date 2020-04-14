@@ -29,3 +29,10 @@
 - Safely deploy functions, events and their required resources together via provider resource managers (e.g., AWS CloudFormation).
 - Infrastructure abstraction sounds nice in theory, in practice, managing layers on top of that abstraction in a simple and unified way becomes fragile and so comes serverless framework for the rescue.
 - Easy scaffolding, built-in support for stages, functions group (aka serverless services), easy to build CI/CD workflows and extensible via plugin system. Finally a big community
+
+#### Quickstart
+
+- `npm install -g serverless` or `curl -o- -L https://slss.io/install | bash`
+- `serverless` or `sls` for running serverless
+- `sls create -t aws-nodejs -p <app_name>`
+- serverless.yml for configuration
