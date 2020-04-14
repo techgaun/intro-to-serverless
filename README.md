@@ -13,6 +13,7 @@
 - Build a Live Demo
 - Use Cases
 - Key concepts and taking from dev to production
+- Drawbacks of Serverless Architecture
 - Discussions/Wrap-up
 
 ### Introduction to Serverless Architecture
@@ -36,3 +37,22 @@
 - `serverless` or `sls` for running serverless
 - `sls create -t aws-nodejs -p <app_name>`
 - serverless.yml for configuration
+
+#### Language Support
+
+- Depends on what is supported by the runtime of the service
+- AWS Lambda integration is probably by far the most feature complete and mature on serverless framework
+
+#### Services
+
+- `sls install --url <service-github-url>`
+- provides a mechanism to build and re-use scaffolding/templates
+- [examples](https://github.com/serverless/examples) and much more
+
+#### Extending Serverless Framework with [plugins](https://github.com/serverless/plugins)
+
+- allows users to extend or overwrite the framework's core functionality
+- plugins are basically javascript code
+- install (via npm/yarn) and specify plugins you like to use on serverless.yml in plugins sections
+- [plugins dive](https://serverless.com/framework/docs/providers/aws/guide/plugins/)
+- [How to create serverless plugins - Part 1](https://serverless.com/blog/writing-serverless-plugins/)
