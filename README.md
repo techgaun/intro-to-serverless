@@ -1,3 +1,7 @@
+%title: Introduction to Serverless Framework
+%author: techgaun
+%date: 2020-04-12
+
 # intro-to-serverless
 > An introduction to Serverless Framework
 
@@ -16,12 +20,16 @@
 - Challenges of Serverless Architecture
 - Discussions/Wrap-up/Stories
 
+-------------------------------------------------
+
 ### Introduction to Serverless Architecture
 
 - Microservice-y architecture for which you don't have to manage the infrastructure
 - Infrastructure often abstracted away into simple configuration by Cloud Providers (AWS Lambda, Azure functions, Google CloudFunctions, etc.) or your in-house infrastructure team (With deployment of Apache OpenWhisk, Kubeless, Fission, etc.)
 - Lowers the total cost of maintaining your apps, enabling you to build more logic, faster
 - Serverless compute services are essentially ephemeral containers
+
+-------------------------------------------------
 
 ### Introduction to Open-Source Serverless Framework
 
@@ -32,6 +40,8 @@
 - Infrastructure abstraction sounds nice in theory, in practice, managing layers on top of that abstraction in a simple and unified way becomes fragile and so comes serverless framework for the rescue.
 - Easy scaffolding, built-in support for stages, functions group (aka serverless services), easy to build CI/CD workflows and extensible via plugin system. Finally a big community
 
+-------------------------------------------------
+
 #### Quickstart
 
 - `npm install -g serverless` or `curl -o- -L https://slss.io/install | bash`
@@ -39,16 +49,22 @@
 - `sls create -t aws-nodejs -p <app_name>`
 - serverless.yml for configuration
 
+-------------------------------------------------
+
 #### Language Support
 
 - Depends on what is supported by the runtime of the service
 - AWS Lambda integration is probably by far the most feature complete and mature on serverless framework
+
+-------------------------------------------------
 
 #### Services
 
 - `sls install --url <service-github-url>`
 - provides a mechanism to build and re-use scaffolding/templates
 - [examples](https://github.com/serverless/examples) and much more
+
+-------------------------------------------------
 
 #### Extending Serverless Framework with [plugins](https://github.com/serverless/plugins)
 
@@ -59,17 +75,23 @@
 - [plugins dive](https://serverless.com/framework/docs/providers/aws/guide/plugins/)
 - [How to create serverless plugins - Part 1](https://serverless.com/blog/writing-serverless-plugins/)
 
+-------------------------------------------------
+
 #### [Serverless Framework Components](https://github.com/serverless-components)
 
 - [abstractions](https://github.com/serverless/components) to deploy serverless applications using serverless framework
 - allows complex but common use-cases to be built out and made available via serverless registry
 - just got out of beta recently
 
+-------------------------------------------------
+
 ### Build a Live Demo
 
 - From scratch
 - Using template
 - Using service
+
+-------------------------------------------------
 
 ### Use Cases
 
@@ -80,7 +102,11 @@
 - Complex shared client-side logic encapsulation
 - [Case Studies](https://serverless.com/learn/case-studies/)
 
+-------------------------------------------------
+
 ### Key concepts and taking from dev to production
+
+-------------------------------------------------
 
 ### Challenges of Serverless Architecture
 
@@ -89,5 +115,7 @@
 - Vendor lock-in
 - Security Management
 - General startup latency (cold boot time)
+
+-------------------------------------------------
 
 ### Discussions/Wrap-up/Stories
