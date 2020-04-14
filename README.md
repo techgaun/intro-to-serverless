@@ -27,7 +27,7 @@
 - Microservice-y architecture for which you don't have to manage the infrastructure
 - Infrastructure often abstracted away into simple configuration by Cloud Providers (AWS Lambda, Azure functions, Google CloudFunctions, etc.) or your in-house infrastructure team (With deployment of Apache OpenWhisk, Kubeless, Fission, etc.)
 - Lowers the total cost of maintaining your apps, enabling you to build more logic, faster
-- Serverless compute services are essentially ephemeral containers
+- Serverless compute services are essentially ephemeral containers. No need to worry about things such as CPU, memory, disk, OS/app updates, n/w configs, container configs, k8s, and plethoras of such things...
 
 -------------------------------------------------
 
