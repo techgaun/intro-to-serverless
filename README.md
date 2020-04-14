@@ -106,6 +106,11 @@
 
 ### Key concepts and taking from dev to production
 
+- API Gateway
+- Stages
+- IAM
+- Logging
+
 -------------------------------------------------
 
 ### Challenges of Serverless Architecture
