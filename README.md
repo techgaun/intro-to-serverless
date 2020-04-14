@@ -27,3 +27,5 @@
 - Supports Node.js, Python, Java, Go, C#, Ruby, Swift, Kotlin, PHP, Scala, & F#
 - Manages the lifecycle of your serverless architecture (build, deploy, update, delete)
 - Safely deploy functions, events and their required resources together via provider resource managers (e.g., AWS CloudFormation).
+- Infrastructure abstraction sounds nice in theory, in practice, managing layers on top of that abstraction in a simple and unified way becomes fragile and so comes serverless framework for the rescue.
+- Easy scaffolding, built-in support for stages, functions group (aka serverless services), easy to build CI/CD workflows and extensible via plugin system. Finally a big community
