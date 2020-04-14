@@ -33,7 +33,8 @@
 
 ### Introduction to Open-Source Serverless Framework
 
-- MIT open-source project, actively maintained by a full-time, venture-backed team
+- MIT open-source project, actively maintained by a full-time, venture-backed team, started in 2015
+- Infrastructure as Code for various managed services necessary to get up and running with serverless architecture
 - Supports Node.js, Python, Java, Go, C#, Ruby, Swift, Kotlin, PHP, Scala, & F#
 - Manages the lifecycle of your serverless architecture (build, deploy, update, delete)
 - Safely deploy functions, events and their required resources together via provider resource managers (e.g., AWS CloudFormation).
