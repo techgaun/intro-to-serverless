@@ -14,13 +14,14 @@
 - Use Cases
 - Key concepts and taking from dev to production
 - Challenges of Serverless Architecture
-- Discussions/Wrap-up
+- Discussions/Wrap-up/Stories
 
 ### Introduction to Serverless Architecture
 
 - Microservice-y architecture for which you don't have to manage the infrastructure
 - Infrastructure often abstracted away into simple configuration by Cloud Providers (AWS Lambda, Azure functions, Google CloudFunctions, etc.) or your in-house infrastructure team (With deployment of Apache OpenWhisk, Kubeless, Fission, etc.)
 - Lowers the total cost of maintaining your apps, enabling you to build more logic, faster
+- Serverless compute services are essentially ephemeral containers
 
 ### Introduction to Open-Source Serverless Framework
 
@@ -73,7 +74,20 @@
 ### Use Cases
 
 - Auto-scaling Websites and APIs
-- Image and Video (& General Files) Manipulation
+- Image and Video (& General Files/Multimedia) Manipulation
 - Event Processing
 - Multi-language and Multi-cloud applications
+- Complex shared client-side logic encapsulation
 - [Case Studies](https://serverless.com/learn/case-studies/)
+
+### Key concepts and taking from dev to production
+
+### Challenges of Serverless Architecture
+
+- Lack of operational tools (monitoring, debugging, observability)
+- Architectural and Testing complexity
+- Vendor lock-in
+- Security Management
+- General startup latency (cold boot time)
+
+### Discussions/Wrap-up/Stories
