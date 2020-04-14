@@ -13,7 +13,7 @@
 - Build a Live Demo
 - Use Cases
 - Key concepts and taking from dev to production
-- Drawbacks of Serverless Architecture
+- Challenges of Serverless Architecture
 - Discussions/Wrap-up
 
 ### Introduction to Serverless Architecture
@@ -53,6 +53,27 @@
 
 - allows users to extend or overwrite the framework's core functionality
 - plugins are basically javascript code
+- power of serverless lies a lot in the rich plugin ecosystem and extensibility
 - install (via npm/yarn) and specify plugins you like to use on serverless.yml in plugins sections
 - [plugins dive](https://serverless.com/framework/docs/providers/aws/guide/plugins/)
 - [How to create serverless plugins - Part 1](https://serverless.com/blog/writing-serverless-plugins/)
+
+#### [Serverless Framework Components](https://github.com/serverless-components)
+
+- [abstractions](https://github.com/serverless/components) to deploy serverless applications using serverless framework
+- allows complex but common use-cases to be built out and made available via serverless registry
+- just got out of beta recently
+
+### Build a Live Demo
+
+- From scratch
+- Using template
+- Using service
+
+### Use Cases
+
+- Auto-scaling Websites and APIs
+- Image and Video (& General Files) Manipulation
+- Event Processing
+- Multi-language and Multi-cloud applications
+- [Case Studies](https://serverless.com/learn/case-studies/)
